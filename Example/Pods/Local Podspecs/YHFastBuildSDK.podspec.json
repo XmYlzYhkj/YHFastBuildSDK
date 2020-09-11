@@ -1,0 +1,22 @@
+{
+  "name": "YHFastBuildSDK",
+  "version": "0.1.0",
+  "summary": "A short description of YHFastBuildSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengxiaolang/YHFastBuildSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengxiaolang": "haifeng3099@126.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengxiaolang/YHFastBuildSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YHFastBuildSDK/Classes/**/*"
+}
