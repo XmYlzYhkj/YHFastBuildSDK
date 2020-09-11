@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
           // iOS
           [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
   #endif
-  4、add method (injectioned) to you project where you want debug
+  4、add method (injected) to your project where you want to debug
                        DESC
 
   s.homepage         = 'https://github.com/XmYlzYhkj/YHFastBuildSDK'
