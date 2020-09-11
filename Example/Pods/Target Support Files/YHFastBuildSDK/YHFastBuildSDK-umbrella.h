@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YHFastBuild.h"
 
 FOUNDATION_EXPORT double YHFastBuildSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHFastBuildSDKVersionString[];

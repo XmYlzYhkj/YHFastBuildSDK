@@ -8,11 +8,18 @@
 
 #import "YHAppDelegate.h"
 
+
+#import <YHFastBuildSDK/YHFastBuild.h>
+
 @implementation YHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    [YHFastBuild buildJustInTime];
+    
     return YES;
 }
 

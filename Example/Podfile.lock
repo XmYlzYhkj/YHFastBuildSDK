@@ -1,5 +1,5 @@
 PODS:
-  - YHFastBuildSDK (0.1.0)
+  - YHFastBuildSDK (1.0.0)
 
 DEPENDENCIES:
   - YHFastBuildSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YHFastBuildSDK: d12d58243767c80e27bd2cf4281a6f555a45c2ff
+  YHFastBuildSDK: f47ab76d395a575180e85f43f2fbaf984ea30b28
 
 PODFILE CHECKSUM: 92d3cf813b6e5b45258ce81e78472620ad064d4b
 

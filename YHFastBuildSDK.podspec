@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHFastBuildSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YHFastBuildSDK.'
+  s.version          = '1.0.0'
+  s.summary          = 'YHFastBuildSDK can build project more quickly with indextionIII When developing'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  YHFastBuildSDK can build project more quickly with injectionIII When developing.
+  1、download indextionIII from app store and install to Mac
+  2、open relected project
+  3、add code when in appdelegate file
+  #if DEBUG
+          // iOS
+          [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
+  #endif
+  4、add method (injectioned) to you project where you want debug
                        DESC
 
-  s.homepage         = 'https://github.com/zhengxiaolang/YHFastBuildSDK'
+  s.homepage         = 'https://github.com/XmYlzYhkj/YHFastBuildSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhengxiaolang' => 'haifeng3099@126.com' }
-  s.source           = { :git => 'https://github.com/zhengxiaolang/YHFastBuildSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/XmYlzYhkj/YHFastBuildSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0370DD3A564A30B2811E970B0A2E3CC6 /* YHFastBuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFA20CDFF2164652569AEF47B1FA49A /* YHFastBuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1106898FABFA440A5AE5481487296E11 /* Pods-YHFastBuildSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F18BC041001EF744003BDD04281D20 /* Pods-YHFastBuildSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A55F19D7C93D94A963654F9B4DAA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		14B1F3BE215825D6132F50E40C17E29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2509CDF5477B1CD6BC55EB89C167335F /* YHFastBuildSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DB02ECD06846A8D0475AA4742CEC6B /* YHFastBuildSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27DD1F4EA75A238B40DA62DDFB3F207A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		518C04D374B2C282719B250D79108E24 /* Pods-YHFastBuildSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B84CEF472F30AF047D9567939A3C5248 /* Pods-YHFastBuildSDK_Tests-dummy.m */; };
-		5EBEEAF7A1CFC6254C44A32D11E8B1A3 /* YHFastBuildSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6439570EC4F83C9734FC2FB95E1EFD64 /* YHFastBuildSDK-dummy.m */; };
 		7D31BC1A6FCFCE472CE3555AC800DF1D /* Pods-YHFastBuildSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CBC08E8C1C1F174D87666C076A5A5E /* Pods-YHFastBuildSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B596E193E3E3DFD7BCAA0E5EC313A21 /* YHFastBuildSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BB3F2855F7ACD54B7B6E48E44C1B1 /* YHFastBuildSDK-dummy.m */; };
 		9F16456BB3BEA58AD4E150D2AA3F9067 /* Pods-YHFastBuildSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D377704DE7E6BFEC6EB4BDAADD9D77 /* Pods-YHFastBuildSDK_Example-dummy.m */; };
-		B1C4CCCB3D4A97FFC14C11BBAAA06B57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BA6776A720D896BCD13FC3B57A9381D1 /* YHFastBuildSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 657307D3AA34E1A8860CDA08F03FFB5B /* YHFastBuildSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E84162381BC050AD8CD32E151B3B1301 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C2B732400E9F3FFE9B7F1C4ABFF58 /* ReplaceMe.m */; };
+		CD905F5EDAB044F0648443E0F1DF4D95 /* YHFastBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D09290F902AAE013920DD80847DF8 /* YHFastBuild.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,54 +39,55 @@
 
 /* Begin PBXFileReference section */
 		1234E7D053867ECB45ECF5599919B676 /* Pods-YHFastBuildSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHFastBuildSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		174C2B732400E9F3FFE9B7F1C4ABFF58 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YHFastBuildSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		178395F4D93391D37D52BEFB83957413 /* YHFastBuildSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHFastBuildSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1FF0BA6766AC6EF6B6B66CDB6F3E821B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14169A06EFF5E4396541BA4FD0C56936 /* YHFastBuildSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHFastBuildSDK.modulemap; sourceTree = "<group>"; };
 		26F18BC041001EF744003BDD04281D20 /* Pods-YHFastBuildSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHFastBuildSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		2B4641E5965D28F95FCC71D2C3136498 /* YHFastBuildSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHFastBuildSDK-prefix.pch"; sourceTree = "<group>"; };
 		30E2B1F656D59A528F9A5212B4EBAE64 /* Pods-YHFastBuildSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHFastBuildSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		319BB3F2855F7ACD54B7B6E48E44C1B1 /* YHFastBuildSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHFastBuildSDK-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		338D47F5953F61581EEA7EE2FBB430E3 /* Pods-YHFastBuildSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHFastBuildSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B5DBD4FF611DE517B1B74263AA3449C /* Pods-YHFastBuildSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHFastBuildSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		40D377704DE7E6BFEC6EB4BDAADD9D77 /* Pods-YHFastBuildSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHFastBuildSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		42606791BE4D86AB05CD531547A85938 /* Pods-YHFastBuildSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHFastBuildSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5021EE416AD0D90F759195C7F56410D3 /* YHFastBuildSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHFastBuildSDK-prefix.pch"; sourceTree = "<group>"; };
+		455726BA6BBA4D8BB3AFDFFB66456EA4 /* YHFastBuildSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHFastBuildSDK.release.xcconfig; sourceTree = "<group>"; };
+		482D09290F902AAE013920DD80847DF8 /* YHFastBuild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHFastBuild.m; path = YHFastBuildSDK/Classes/YHFastBuild.m; sourceTree = "<group>"; };
 		5CDBC2DB4494B567C5E24D7370673264 /* Pods-YHFastBuildSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHFastBuildSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D5B5566F04406C3B4D00A109B008A12 /* YHFastBuildSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHFastBuildSDK.release.xcconfig; sourceTree = "<group>"; };
-		6439570EC4F83C9734FC2FB95E1EFD64 /* YHFastBuildSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHFastBuildSDK-dummy.m"; sourceTree = "<group>"; };
-		657307D3AA34E1A8860CDA08F03FFB5B /* YHFastBuildSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHFastBuildSDK-umbrella.h"; sourceTree = "<group>"; };
 		695118340C23A528381FD573DD6DF2E0 /* Pods-YHFastBuildSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHFastBuildSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		6DC66DE04E2AB3C3D49F8CE567C8F40B /* Pods-YHFastBuildSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHFastBuildSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		736085BE9CA3C69BAE77583C3F60D3B4 /* YHFastBuildSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHFastBuildSDK.framework; path = YHFastBuildSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		736085BE9CA3C69BAE77583C3F60D3B4 /* YHFastBuildSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YHFastBuildSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EFFD786CE5AB35E83EA9501657C21E /* Pods-YHFastBuildSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHFastBuildSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77CCD4D55EDEFCE3E294DC2A10E79044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		77D063105ACCFEA57DE34CB5AB215414 /* YHFastBuildSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHFastBuildSDK.debug.xcconfig; sourceTree = "<group>"; };
 		813B1DB6592F26776FF20C489CAA2859 /* Pods-YHFastBuildSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHFastBuildSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		82EA305955B80C63B38F0107B7ADC1FF /* Pods-YHFastBuildSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHFastBuildSDK_Example.modulemap"; sourceTree = "<group>"; };
-		8584EDE36585E70F22557AA0849343E5 /* Pods_YHFastBuildSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHFastBuildSDK_Tests.framework; path = "Pods-YHFastBuildSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B1AC0530F66A13D44E5A3D4B113B557 /* YHFastBuildSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHFastBuildSDK-Info.plist"; sourceTree = "<group>"; };
-		8E61D8D073742A0B9ED5680E121D6859 /* YHFastBuildSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHFastBuildSDK.modulemap; sourceTree = "<group>"; };
+		8584EDE36585E70F22557AA0849343E5 /* Pods_YHFastBuildSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHFastBuildSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFA20CDFF2164652569AEF47B1FA49A /* YHFastBuild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHFastBuild.h; path = YHFastBuildSDK/Classes/YHFastBuild.h; sourceTree = "<group>"; };
 		90CBC08E8C1C1F174D87666C076A5A5E /* Pods-YHFastBuildSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHFastBuildSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B441657FF090DEB016E6F41F6FF5F30E /* YHFastBuildSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHFastBuildSDK.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A331CD0D2F0AF0B2F04BCFEB5ECDF623 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B572A44175431171F4AC09A717B7D42B /* YHFastBuildSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHFastBuildSDK-Info.plist"; sourceTree = "<group>"; };
 		B84CEF472F30AF047D9567939A3C5248 /* Pods-YHFastBuildSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHFastBuildSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		BD79FB243BF5E4AC4FC38CA9CE9243A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C850E6A0B723729FF0120D38EC0CB7AB /* Pods_YHFastBuildSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHFastBuildSDK_Example.framework; path = "Pods-YHFastBuildSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DB02ECD06846A8D0475AA4742CEC6B /* YHFastBuildSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHFastBuildSDK-umbrella.h"; sourceTree = "<group>"; };
+		C850E6A0B723729FF0120D38EC0CB7AB /* Pods_YHFastBuildSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHFastBuildSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB71E40BE6EB6CEE5212B38936C41270 /* YHFastBuildSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YHFastBuildSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8708AA787E36353D0F010ADC37121CB /* Pods-YHFastBuildSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHFastBuildSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC78CAA2C81738D902C65FB8767FB01C /* Pods-YHFastBuildSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHFastBuildSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09665C96CC2F4075F15620A18B1ADAD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1C4CCCB3D4A97FFC14C11BBAAA06B57 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A6B92934040F2AA1376E6DBED1198088 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				14B1F3BE215825D6132F50E40C17E29A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA84E28FCAEC261D50034BE7F4E6273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A55F19D7C93D94A963654F9B4DAA44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,31 +119,6 @@
 			path = "Target Support Files/Pods-YHFastBuildSDK_Example";
 			sourceTree = "<group>";
 		};
-		123F1DB7FA6A60466F6D83C522A0C6ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E61D8D073742A0B9ED5680E121D6859 /* YHFastBuildSDK.modulemap */,
-				6439570EC4F83C9734FC2FB95E1EFD64 /* YHFastBuildSDK-dummy.m */,
-				8B1AC0530F66A13D44E5A3D4B113B557 /* YHFastBuildSDK-Info.plist */,
-				5021EE416AD0D90F759195C7F56410D3 /* YHFastBuildSDK-prefix.pch */,
-				657307D3AA34E1A8860CDA08F03FFB5B /* YHFastBuildSDK-umbrella.h */,
-				B441657FF090DEB016E6F41F6FF5F30E /* YHFastBuildSDK.debug.xcconfig */,
-				5D5B5566F04406C3B4D00A109B008A12 /* YHFastBuildSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YHFastBuildSDK";
-			sourceTree = "<group>";
-		};
-		20A8669392AB75C5414E9908EF86D373 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BD79FB243BF5E4AC4FC38CA9CE9243A0 /* LICENSE */,
-				1FF0BA6766AC6EF6B6B66CDB6F3E821B /* README.md */,
-				178395F4D93391D37D52BEFB83957413 /* YHFastBuildSDK.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		20AD4B4429C70EC703BD2FD1EB176190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,23 +138,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6DD4E2738F38641B1974D8DD1CDC91B9 /* YHFastBuildSDK */ = {
+		55670CFDEF72CAF43AF2D06E12C7BDEF /* YHFastBuildSDK */ = {
 			isa = PBXGroup;
 			children = (
-				174C2B732400E9F3FFE9B7F1C4ABFF58 /* ReplaceMe.m */,
-				20A8669392AB75C5414E9908EF86D373 /* Pod */,
-				123F1DB7FA6A60466F6D83C522A0C6ED /* Support Files */,
+				8BFA20CDFF2164652569AEF47B1FA49A /* YHFastBuild.h */,
+				482D09290F902AAE013920DD80847DF8 /* YHFastBuild.m */,
+				E68E4272C5C626EC7545E1C0F9ACACDA /* Pod */,
+				BADF01C3039BF58DDEAC191468D35B81 /* Support Files */,
 			);
 			name = YHFastBuildSDK;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		A832132BE0D061C6E47A3D10CEEAECFF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6DD4E2738F38641B1974D8DD1CDC91B9 /* YHFastBuildSDK */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B91E21DF1BFBFF0419F3ADDBA3CE0A51 /* Pods-YHFastBuildSDK_Tests */ = {
@@ -196,6 +166,21 @@
 			path = "Target Support Files/Pods-YHFastBuildSDK_Tests";
 			sourceTree = "<group>";
 		};
+		BADF01C3039BF58DDEAC191468D35B81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14169A06EFF5E4396541BA4FD0C56936 /* YHFastBuildSDK.modulemap */,
+				319BB3F2855F7ACD54B7B6E48E44C1B1 /* YHFastBuildSDK-dummy.m */,
+				B572A44175431171F4AC09A717B7D42B /* YHFastBuildSDK-Info.plist */,
+				2B4641E5965D28F95FCC71D2C3136498 /* YHFastBuildSDK-prefix.pch */,
+				C4DB02ECD06846A8D0475AA4742CEC6B /* YHFastBuildSDK-umbrella.h */,
+				77D063105ACCFEA57DE34CB5AB215414 /* YHFastBuildSDK.debug.xcconfig */,
+				455726BA6BBA4D8BB3AFDFFB66456EA4 /* YHFastBuildSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHFastBuildSDK";
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A832132BE0D061C6E47A3D10CEEAECFF /* Development Pods */,
+				E817FF7EB23B0A31078A20A5115F3A97 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				20AD4B4429C70EC703BD2FD1EB176190 /* Products */,
 				21884C7D2365E94B70A0D81CA6400638 /* Targets Support Files */,
@@ -223,6 +208,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E68E4272C5C626EC7545E1C0F9ACACDA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				77CCD4D55EDEFCE3E294DC2A10E79044 /* LICENSE */,
+				A331CD0D2F0AF0B2F04BCFEB5ECDF623 /* README.md */,
+				CB71E40BE6EB6CEE5212B38936C41270 /* YHFastBuildSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E817FF7EB23B0A31078A20A5115F3A97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55670CFDEF72CAF43AF2D06E12C7BDEF /* YHFastBuildSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,6 +237,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1730EA386F08847CD08BF03A477E8AE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0370DD3A564A30B2811E970B0A2E3CC6 /* YHFastBuild.h in Headers */,
+				2509CDF5477B1CD6BC55EB89C167335F /* YHFastBuildSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6E013A4B55B602CB8E347125308DFC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,25 +254,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE9B1181B83E21D5E92BC2050B6FA690 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA6776A720D896BCD13FC3B57A9381D1 /* YHFastBuildSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1E3903FE85D0349E66E9CA3977A475CE /* YHFastBuildSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CD6E9464D4D891D90B5672FC283B9C8 /* Build configuration list for PBXNativeTarget "YHFastBuildSDK" */;
+			buildConfigurationList = C1DD321DAD19D5C1CFE8C457A31EBACD /* Build configuration list for PBXNativeTarget "YHFastBuildSDK" */;
 			buildPhases = (
-				CE9B1181B83E21D5E92BC2050B6FA690 /* Headers */,
-				22890C47DFAED9DF114F0095061F848E /* Sources */,
-				09665C96CC2F4075F15620A18B1ADAD1 /* Frameworks */,
-				56C75FE6C6544235B31535A88662F552 /* Resources */,
+				1730EA386F08847CD08BF03A477E8AE1 /* Headers */,
+				A6D8B3F895BF0E795B22115D11751FA3 /* Sources */,
+				BAA84E28FCAEC261D50034BE7F4E6273 /* Frameworks */,
+				65F56A1E5BD9EDBEC147B74AF615180F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +343,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		56C75FE6C6544235B31535A88662F552 /* Resources */ = {
+		65F56A1E5BD9EDBEC147B74AF615180F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +367,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22890C47DFAED9DF114F0095061F848E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E84162381BC050AD8CD32E151B3B1301 /* ReplaceMe.m in Sources */,
-				5EBEEAF7A1CFC6254C44A32D11E8B1A3 /* YHFastBuildSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81E877768018B2150A9BC8EF60FB4DBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				518C04D374B2C282719B250D79108E24 /* Pods-YHFastBuildSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D8B3F895BF0E795B22115D11751FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD905F5EDAB044F0648443E0F1DF4D95 /* YHFastBuild.m in Sources */,
+				8B596E193E3E3DFD7BCAA0E5EC313A21 /* YHFastBuildSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,37 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B3E8F04C73CDBE068AE7F542371A903 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B441657FF090DEB016E6F41F6FF5F30E /* YHFastBuildSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YHFastBuildSDK/YHFastBuildSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YHFastBuildSDK/YHFastBuildSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YHFastBuildSDK/YHFastBuildSDK.modulemap";
-				PRODUCT_MODULE_NAME = YHFastBuildSDK;
-				PRODUCT_NAME = YHFastBuildSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1F16DB9DE5DA89F01988003B66959CC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75EFFD786CE5AB35E83EA9501657C21E /* Pods-YHFastBuildSDK_Tests.release.xcconfig */;
@@ -470,6 +443,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4312B4483392CC98DE6A9E7E2845D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D063105ACCFEA57DE34CB5AB215414 /* YHFastBuildSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YHFastBuildSDK/YHFastBuildSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHFastBuildSDK/YHFastBuildSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHFastBuildSDK/YHFastBuildSDK.modulemap";
+				PRODUCT_MODULE_NAME = YHFastBuildSDK;
+				PRODUCT_NAME = YHFastBuildSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -524,8 +528,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -662,9 +665,9 @@
 			};
 			name = Debug;
 		};
-		A21E60468BCE2CCEB9BF743BB51744A6 /* Release */ = {
+		AAE63E002F8837D138EA9D0DFD56A963 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D5B5566F04406C3B4D00A109B008A12 /* YHFastBuildSDK.release.xcconfig */;
+			baseConfigurationReference = 455726BA6BBA4D8BB3AFDFFB66456EA4 /* YHFastBuildSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -748,20 +751,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CD6E9464D4D891D90B5672FC283B9C8 /* Build configuration list for PBXNativeTarget "YHFastBuildSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B3E8F04C73CDBE068AE7F542371A903 /* Debug */,
-				A21E60468BCE2CCEB9BF743BB51744A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DD321DAD19D5C1CFE8C457A31EBACD /* Build configuration list for PBXNativeTarget "YHFastBuildSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4312B4483392CC98DE6A9E7E2845D183 /* Debug */,
+				AAE63E002F8837D138EA9D0DFD56A963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
